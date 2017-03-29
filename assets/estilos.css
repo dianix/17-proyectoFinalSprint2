@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #873ecb;
+}
+
+header {
+    background-color: #5d3186;
+    
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #a583c4;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0.72);
+    border-radius: 6px;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.47);
+    border-radius: 5px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
