@@ -32,9 +32,15 @@ button {
 }
 
 div {
-    background-color: rgba(255, 255, 255, 0.47);
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    
+}
+
+span {
+    
 }
