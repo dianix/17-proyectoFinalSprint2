@@ -23,24 +23,54 @@ h2 {
     color: #a583c4;
 }
 
+input {
+    margin: 5px;
+    width: 130px;
+    border-width: 0;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+hr{
+    border-color: rgba(135, 62, 203, 0);
+}
+
+h3 {
+    display: inline-block;
+    margin: 10px;
+}
+
 button {
     margin: 5px;
     padding: 5px;
     border-width: 0;
-    background-color: rgba(255, 255, 255, 0.72);
-    border-radius: 6px;
+    background-color: #a583c4;
+    border-radius: 15px;
+    color: white;
 }
 
 div {
     margin: 10px;
+    padding: 10px;
+    display: inline-block;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
-    width: 300px;
+    width: 280px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     
 }
 
-span {
+li {
+    margin: 15px;
+    padding: 5px;
+    width: 200px;
+    display: inline-block;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     
 }
+
+

@@ -13,10 +13,26 @@
     
     <!-- area general para crear y contener listas -->
     <section id="pizarraPseudotrello">
-        <!-- boton para crear lista nueva -->
-        <button style="button" onclick="crearLista()">Agregar lista</button>
-        <!-- área para contener listas creadas -->
-        <section id="contenedorListas"></section>
+        <input type="text" id="nombreLista" placeholder="Nombre de tu lista">
+        <button style="button" onclick="crearLista()">Agregar lista</button><!-- boton para crear lista nueva -->
+        <hr>
+        <section id="contenedorListas">
+        <!-- área para contener listas creadas --> 
+            <div>
+                <h3>Maqueta de lista</h3>
+                <button>Borrar lista</button>
+                <ul>
+                    <li>Ni esta lista</li>
+                    <button>x</button>
+                    <li>ni estos pendientes</li>
+                    <button>x</button>
+                    <li>se pueden borrar =P</li>
+                    <button>x</button>    
+                </ul>
+                <input type="text" placeholder="Nuevo pendiente">
+                <button>Agregar pendiente</button>
+            </div>   
+        </section>
     </section>
     
     <!-- enlace a javascript -->
